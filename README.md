@@ -2,8 +2,7 @@
 
 This application was developed as part of a test task.
 
-
-What is used and for what
+What is used and for what?
 
 1) MVVM pattern (LiveData, ViewModel)
 2) ViewBinding is used
