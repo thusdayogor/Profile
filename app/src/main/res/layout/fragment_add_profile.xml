@@ -24,7 +24,7 @@
         android:text = "@string/add_profile"
         android:layout_marginTop="40dp"
         android:textColor = "@color/purple_500"
-        android:textSize = "24dp"
+        android:textSize = "24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"

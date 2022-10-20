@@ -13,10 +13,10 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginTop="100dp"
-        android:ems="10"
-        android:hint="Email"
+        android:hint="@string/email"
         android:inputType="textEmailAddress"
-        tools:ignore="TouchTargetSizeCheck" />
+        tools:ignore="TouchTargetSizeCheck"
+        />
 
 
     <EditText
@@ -24,10 +24,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:ems="10"
-        android:hint="Password"
+        android:hint="@string/password_big"
         android:inputType="textPassword"
-        tools:ignore="TouchTargetSizeCheck" />
+        />
 
 
     <com.google.android.material.button.MaterialButton
@@ -36,7 +35,7 @@
         android:layout_gravity="center"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Sign in" />
+        android:text="@string/sign_in" />
 
 
 

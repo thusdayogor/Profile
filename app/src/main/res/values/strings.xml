@@ -7,10 +7,12 @@
     <string name ="phone">Phone</string>
     <string name ="surname">Surname</string>
     <string name = "name">Name</string>
+    <string name = "password_big">Password</string>
     <string name = "patronymic">Patronymic</string>
     <string name ="date">Date</string>
     <string name="add_profile">Add Profile</string>
     <string name="update_profile">Update Profile</string>
+    <string name="sign_in">Sign in</string>
     <string name="add">Add</string>
     <string name="update">Update</string>
     <string name="delete">Delete</string>
