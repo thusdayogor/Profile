@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="BadLogin">Incorrect login or password</string>
+    <string name="BadLengthLogin"> Login or password length is incorrect</string>
+    <string name="BadEmail"> Email is incorrect</string>
+    <string name="BadPhone">Phone is incorrect</string>
+    <string name="BadDate">Date is incorrect</string>
+</resources>
