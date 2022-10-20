@@ -11,4 +11,4 @@ What is used and for what?
 5) Class Tests, user-entered unit-test coverage value
 
 
-Login only for admin by data (admin;admin) as required by assignment) Can be quickly modified, see example in my project to monitor discussions!!!
+Login only for admin by data (admin:admin) as required by assignment) Can be quickly modified, see example in my project to monitor discussions!!!
