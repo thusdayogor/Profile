@@ -40,8 +40,14 @@ class DetailFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         binding = FragmentDetailBinding.inflate(layoutInflater,container,false)
-        curProfileModel = arguments?.getSerializable("profile",
-            ProfileModel::class.java) as ProfileModel
+        curProfileModel = if (android.os.Build.VERSION.SDK_INT >= 33) {
+            arguments?.getSerializable(
+                "profile",
+                ProfileModel::class.java
+            ) as ProfileModel
+        } else {
+            arguments?.getSerializable("profile") as ProfileModel
+        }
         return binding.root
     }
 
