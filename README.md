@@ -2,6 +2,8 @@
 
 This application was developed as part of a test task.
 
+API 33
+
 What is used and for what?
 
 1) MVVM pattern (LiveData, ViewModel)
